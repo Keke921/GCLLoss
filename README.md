@@ -1,5 +1,6 @@
-# FBL: Feature-Balanced Loss for Long-Tailed Visual Recognition
+# GCL: Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment
 This is the official source code for our CVPR (2022) paper: [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](https://www.techrxiv.org/articles/preprint/Long-tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment/17031920) based on Pytorch. 
+This version is a demo of how to use GCL loss. The version that supports more datasets is in the works and is coming soon.
 
 ## CIFAR10
 First stage
@@ -17,7 +18,6 @@ $ python cifar_train_classifier.py --arch resnet32 /
                                  --train_rule 'BalancedRS'/
                                  --batch_size 64 --learning_rate 0.1 
 ```
-
 
 
 ## To do list:
@@ -48,3 +48,5 @@ $ python cifar_train_classifier.py --arch resnet32 /
 [Awesome-of-Long-Tailed-Recognition](https://github.com/zwzhang121/Awesome-of-Long-Tailed-Recognition)
 
 [Long-Tailed-Classification-Leaderboard](https://github.com/yanyanSann/Long-Tailed-Classification-Leaderboard)
+
+[BagofTricks-LT](https://github.com/zhangyongshun/BagofTricks-LT)
