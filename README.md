@@ -1,39 +1,49 @@
-# Feature-Balanced Loss for Long-Tailed Visual Recognition
-This is the official source code for the Paper: **Feature-Balanced Loss for Long-Tailed Visual Recognition** based on Pytorch. Recommending use `>exp.log 2>&1` or `2>&1 | tee` to record historical standard output. 
+# FBL: Feature-Balanced Loss for Long-Tailed Visual Recognition
+This is the official source code for our CVPR (2022) paper: [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](https://www.techrxiv.org/articles/preprint/Long-tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment/17031920) based on Pytorch. 
 
 ## CIFAR10
+First stage
 ```bash
-$ python train.py --arch resnet32 /
-                  --dataset cifar10 --data_path './dataset/data_img' /
-                  --gpu 3 /
-                  --loss_type 'FeaBal' --batch_size 64 --learning_rate 0.1 --lambda_ 60
+$ python cifar_train_backbone.py --arch resnet32 /
+                                 --dataset cifar10 --data_path './dataset/data_img' /
+                                 --loss_type 'GCL' --imb_factor 0.01 /
+                                 --batch_size 64 --learning_rate 0.1 
 ```
-## CIFAR100
+Second stage
 ```bash
-$ python train.py --arch resnet32 /
-                  --dataset cifar100 --data_path './dataset/data_img' /
-                  --gpu 3 /
-                  --loss_type 'FeaBal' --batch_size 64 --learning_rate 0.1 --lambda_ 60
-```
-## ImageNet
-```bash
-$ python train.py --arch resnet50 / 
-                  --dataset imagenet --data_path './dataset/data_txt' --img_path '/home/datasets/imagenet/ILSVRC2012_dataset' / 
-                  --gpu 3 /
-                  --loss_type 'FeaBal' --batch_size 512 --learning_rate 0.2 --lambda_ 150
-```
-## iNaturalist
-```bash
-$ python train.py --arch resnet50 / 
-                  --dataset inat --data_path './dataset/data_txt' --img_path '/home/datasets/iNaturelist2018' / 
-                  --gpu 3 /
-                  --loss_type 'FeaBal' --batch_size 512  --learning_rate 0.2 --lambda_ 150
+$ python cifar_train_classifier.py --arch resnet32 /
+                                 --dataset cifar10 --data_path './dataset/data_img' /
+                                 --loss_type 'GCL' --imb_factor 0.01 /
+                                 --train_rule 'BalancedRS'/
+                                 --batch_size 64 --learning_rate 0.1 
 ```
 
-## Places
-```bash
-$ python train.py --arch resnet152_p / 
-                  --dataset place365 --data_path './dataset/data_txt' --img_path '/home/datasets/Places365' /
-                  --gpu 3 /
-                  --loss_type 'FeaBal' --batch_size 512  --learning_rate 0.2 --lambda_ 150
+
+
+To do list:
+- [x] Support Cifar10/100-LT dataset
+- [ ] Support iNaturalist2018
+- [ ] Support Places365-LT
+- [ ] More loss functions
+- [ ] Separate configuration files for easier execution
+- [ ] Some other minor performance improvements
+
+
+## Citation
+
 ```
+@inproceedings{Li2022Long,
+  author    = {Mengke Li, Yiu{-}ming Cheung, Yang Lu},
+  title     = {Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment},
+  pages = {},
+  booktitle = {CVPR},
+  year      = {2022},
+}
+```
+
+## Other Resources of long-tailed visual recognition
+[Awesome-LongTailed-Learning](https://github.com/Vanint/Awesome-LongTailed-Learning)
+
+[Awesome-of-Long-Tailed-Recognition](https://github.com/zwzhang121/Awesome-of-Long-Tailed-Recognition)
+
+[Long-Tailed-Classification-Leaderboard](https://github.com/yanyanSann/Long-Tailed-Classification-Leaderboard)
