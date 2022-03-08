@@ -20,8 +20,9 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 
 
-To do list:
+## To do list:
 - [x] Support Cifar10/100-LT dataset
+- [ ] Support imageNet-LT
 - [ ] Support iNaturalist2018
 - [ ] Support Places365-LT
 - [ ] More loss functions
