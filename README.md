@@ -50,3 +50,5 @@ $ python cifar_train_classifier.py --arch resnet32 /
 [Long-Tailed-Classification-Leaderboard](https://github.com/yanyanSann/Long-Tailed-Classification-Leaderboard)
 
 [BagofTricks-LT](https://github.com/zhangyongshun/BagofTricks-LT)
+
+If you have any questions, please send the email to Mengke Li at: csmkli@comp.hkbu.edu.hk.
