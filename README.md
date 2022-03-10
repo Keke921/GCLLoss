@@ -31,7 +31,6 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 
 ## Citation
-
 ```
 @inproceedings{Li2022Long,
   author    = {Mengke Li, Yiu{-}ming Cheung, Yang Lu},
@@ -51,4 +50,5 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 [BagofTricks-LT](https://github.com/zhangyongshun/BagofTricks-LT)
 
+## Connection
 If you have any questions, please send the email to Mengke Li at: csmkli@comp.hkbu.edu.hk.
