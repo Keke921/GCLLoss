@@ -48,7 +48,7 @@ parser.add_argument('--mixup', default=True, type=bool, help='if use mix-up')
 parser.add_argument('-b', '--batch-size', default=64, type=int,
                     metavar='N',
                     help='mini-batch size')
-parser.add_argument('--lr', '--learning-rate', default=0.2, type=float,
+parser.add_argument('--lr', '--learning-rate', default=0.1, type=float,
                     metavar='LR', help='initial learning rate', dest='lr')
 parser.add_argument('--momentum', default=0.9, type=float, metavar='M',
                     help='momentum')
