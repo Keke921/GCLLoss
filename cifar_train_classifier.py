@@ -471,7 +471,7 @@ def adjust_learning_rate(optimizer, epoch, args):
     #0.1
     for idx, param_group in enumerate(optimizer.param_groups):
         if idx == 0:
-            param_group['lr'] = 0.2 * lr
+            param_group['lr'] = 0.1 * lr
         else:
             param_group['lr'] = 1.00 * lr
 
