@@ -1,5 +1,5 @@
 # GCL: Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment
-This is the source code for our CVPR (2022) paper: [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](https://www.techrxiv.org/articles/preprint/Long-tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment/17031920) based on Pytorch. 
+This is the source code for our CVPR (2022) paper: [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment]([https://www.techrxiv.org/articles/preprint/Long-tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment/17031920](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html)) based on Pytorch. 
 This version is a demo of how to use GCL loss. The version that supports more datasets is in the works and is coming soon.
 
 ## CIFAR10
