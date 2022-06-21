@@ -35,7 +35,7 @@ $ python cifar_train_classifier.py --arch resnet32 /
 @inproceedings{Li2022Long,
   author    = {Mengke Li, Yiu{-}ming Cheung, Yang Lu},
   title     = {Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment},
-  pages = {},
+  pages = {6929-6938},
   booktitle = {CVPR},
   year      = {2022},
 }
