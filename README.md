@@ -29,6 +29,13 @@ $ python cifar_train_classifier.py --arch resnet32 /
 - [ ] Separate configuration files for easier execution
 - [ ] Some other minor performance improvements
 
+## Erratum
+In the original paper, Equation (13): the numerator and denominator are reversed. It should be 
+\begin{equation}\label{eq:sp}
+  \rho_j= \frac{1-\beta_j^{n_j}}{1-\beta_j}.
+\end{equation}
+
+Very sorry for the mistake.
 
 ## Citation
 ```
