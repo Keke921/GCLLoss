@@ -107,7 +107,7 @@ class CBEffectNumSampler(torch.utils.data.sampler.Sampler):
         beta_b = 1e-5     
         delta = np.log(np.array(label_to_count).astype(np.float32))
         delta = delta.max()-delta
-        delta = (delta - delta.min())/delta.max() - delta.min()   
+        delta = (delta - delta.min())/(delta.max() - delta.min())   
         beta = beta_a + beta_b*delta
         
         effective_num = 1.0 - np.power(beta, label_to_count)
