@@ -39,28 +39,6 @@ class NormedLinear(nn.Module):
         #out = x.mm(self.weight)
         return cosine
 
-class NoiseLinear(nn.Module):
-
-    def __init__(self, in_features, out_features):
-        super(NoiseLinear, self).__init__()
-        self.weight = Parameter(torch.Tensor(out_features, in_features))
-        self.bias = Parameter(torch.Tensor(out_features))
-        self.simpler = normal.Normal(0, 1/3)
-        
-        init.kaiming_uniform_(self.weight, a=math.sqrt(5))
-        fan_in, _ = init._calculate_fan_in_and_fan_out(self.weight)
-        bound = 1 / math.sqrt(fan_in)
-        init.uniform_(self.bias, -bound, bound)
-
-    def forward(self, input):
-        #限制噪声幅度在[-1,1]
-        noise  = torch.randn_like(input) #noise = self.simpler.sample(input.shape).clamp(-1, 1).to(input.device)#
-        
-        out = F.linear(input, self.weight, self.bias)
-        noise = F.linear(noise, self.weight)
-        output = [out,noise]
-        return output
-
 class LambdaLayer(nn.Module):
 
     def __init__(self, lambd):
@@ -205,8 +183,6 @@ class ResNet(nn.Module):
         if self.classifier:
             if use_norm:
                 self.linear = NormedLinear(512 * block.expansion, num_classes)
-            elif use_noise:
-                self.linear = NoiseLinear(512 * block.expansion, num_classes)
             else:
                 self.linear = nn.Linear(512 * block.expansion, num_classes)        
         
