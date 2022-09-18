@@ -22,6 +22,7 @@ from sklearn.metrics import confusion_matrix
 from utils import *
 from dataset.imbalance_cifar import IMBALANCECIFAR10, IMBALANCECIFAR100
 from losses import *
+from sampler import *
 
 model_names = sorted(name for name in models.__dict__
     if name.islower() and not name.startswith("__")
