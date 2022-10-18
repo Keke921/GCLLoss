@@ -29,7 +29,7 @@ $ python cifar_train_classifier.py --arch resnet32 /
 | ----------- | ---------- | -------------- | ------------- | ----- |
 | ImageNet-LT | ResNet-50  | 52.928%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EYro8K-qsKJOvkPf3RJrn6oBnd98VXIQlkrCnQLoex-U8Q?e=2TJOaF)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EYro8K-qsKJOvkPf3RJrn6oBnd98VXIQlkrCnQLoex-U8Q?e=2TJOaF)  |
 | iNat 2018   | ResNet-50  | 70.327%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EfVPDmTDauhHvx8ys0-QKHABEJt0hFZtyn_7HYRxekiTUQ?e=Uhat9r)   | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbCsmx-xbg9Aq2m8sRUsMGMBxyxprq1xTmsjlAjqJFd9lQ?e=B9Pojb) |
-| Places-LT   | ResNet-152 | 34.589%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbFwr8fJNdxFiPfoE64-j5UB4e0MKxOZgdLQ_qACR9tsbA?e=YvRnv2)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg)  |
+| Places-LT   | ResNet-152 | 34.589%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/ERdVRvw1a6tFkxXFRsMLSWIB5PVqjzQ_J_Lejct96r1eGQ?e=DOghYk)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg)  |
 
 * Stage-2:
 
@@ -37,7 +37,7 @@ $ python cifar_train_classifier.py --arch resnet32 /
 | ----------- | ---------- | -------------- | ------------- | ----- |
 | ImageNet-LT | ResNet-50  | 54.884%        | [link (train)](https://lifehkbueduhk-my.sharepoint.com/:x:/g/personal/18482244_life_hkbu_edu_hk/EdjYUsWSEyhHih_77ETKo6QBffmR0_weBek8sXuT2E6SBQ?e=IHQ2mz) [link (val)](https://lifehkbueduhk-my.sharepoint.com/:x:/g/personal/18482244_life_hkbu_edu_hk/EXzcoAhffupAjgq2UidEBSMBxuT5g8C2GmFjSsvQ2gpmpg)| [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EfS6Y3e0AvlCg4Gawwcoo7QBpHPrN4ckDylxaAfIvHoJiA)  |
 | iNat 2018   | ResNet-50  | 72.005%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/Edg2j7yW-HRMi4jrrbE0n70BCUZ9_L82pTyek9yp60cwUQ?e=kJxfUJ)    | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbFwr8fJNdxFiPfoE64-j5UB4e0MKxOZgdLQ_qACR9tsbA?e=YvRnv2)   |
-| Places-LT   | ResNet-152 | 40.641%          | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg)  | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/Eexoqm9t4ylGqKNW2N_0LFsBgEz-_NtUdRAYHZyyRPfHWQ?e=2xfKXh)  |
+| Places-LT   | ResNet-152 | 40.641%          | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EXucyzMKExlFlcCDEif8mF4BcFNMt7M50igHF_C7IFwjqg?e=0eiFaa)  | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/Eexoqm9t4ylGqKNW2N_0LFsBgEz-_NtUdRAYHZyyRPfHWQ?e=2xfKXh)  |
 
 ## <a name="Citation"></a>Citation
 
