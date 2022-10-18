@@ -36,7 +36,7 @@ $ python cifar_train_classifier.py --arch resnet32 /
 | Dataset     | Arch       | Top-1 Accuracy | Log           | Model |
 | ----------- | ---------- | -------------- | ------------- | ----- |
 | ImageNet-LT | ResNet-50  | 54.884%        | [link (train)](https://lifehkbueduhk-my.sharepoint.com/:x:/g/personal/18482244_life_hkbu_edu_hk/EdjYUsWSEyhHih_77ETKo6QBffmR0_weBek8sXuT2E6SBQ?e=IHQ2mz)  [link (val)](https://lifehkbueduhk-my.sharepoint.com/:x:/g/personal/18482244_life_hkbu_edu_hk/EXzcoAhffupAjgq2UidEBSMBxuT5g8C2GmFjSsvQ2gpmpg)| [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EfS6Y3e0AvlCg4Gawwcoo7QBpHPrN4ckDylxaAfIvHoJiA)  |
-| iNat 2018   | ResNet-50  | 71.6%          | 7.67%         | [link](https://drive.google.com/file/d/1crOo3INxqkz8ZzKZt9pH4aYb3-ep4lo-/view?usp=sharing)  |
+| iNat 2018   | ResNet-50  | 72.005%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/r/personal/18482244_life_hkbu_edu_hk/Documents/Migration%20files/long-tailed-work/LT-Classification-2/shared%20files/iNat%202018/iNat_NoiScr_None_mixup_70.327/iNat-backbone-bs256.log?csf=1&web=1&e=1SDUuz)    | [link]([https://drive.google.com/file/d/1crOo3INxqkz8ZzKZt9pH4aYb3-ep4lo-/view?usp=sharing](https://lifehkbueduhk-my.sharepoint.com/:u:/r/personal/18482244_life_hkbu_edu_hk/Documents/Migration%20files/long-tailed-work/LT-Classification-2/shared%20files/iNat%202018/iNat_NoiScr_None_mixup_70.327/iNat-backbone-bs256.log?csf=1&web=1&e=1SDUuz))  |
 | Places-LT   | ResNet-152 | 40.4%          | 3.41%         | [link](https://drive.google.com/file/d/1DgL0aN3UadI3UoHU6TO7M6UD69QgvnbT/view?usp=sharing)  |
 
 ## <a name="Citation"></a>Citation
