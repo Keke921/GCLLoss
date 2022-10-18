@@ -21,14 +21,14 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 ## Results and Models for Large-scale Datasets (temporarily)
 
-[*Note: I have modified the code several time. The code in this repository may need to be modified (Mainly the backbone and classifier loading parts, the classifier network parameter names may be inconsistent.) to match the pth file. Since I left my previous workplace, there is no GPU retraining model now. I temporarily share previously stored pth file for the model. Sorry for the inconvience.]
+*Note: I have modified the code several times. The code in this repository may need to be modified (Mainly the backbone and classifier loading parts, the classifier network layer names may be inconsistent.) to match the pth file. Since I left my previous workplace, there is no GPU retraining model now. I temporarily share previously stored pth file for the model. Sorry for the inconvience and hope you can understand.
 
 * Stage-1:
 
 | Dataset     | Arch       | Top-1 Accuracy | Log           | Model |
 | ----------- | ---------- | -------------- | ------------- | ----- |
 | ImageNet-LT | ResNet-50  | 52.928%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EYro8K-qsKJOvkPf3RJrn6oBnd98VXIQlkrCnQLoex-U8Q?e=2TJOaF)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EYro8K-qsKJOvkPf3RJrn6oBnd98VXIQlkrCnQLoex-U8Q?e=2TJOaF)  |
-| iNat 2018   | ResNet-50  | 70.327%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EfVPDmTDauhHvx8ys0-QKHABEJt0hFZtyn_7HYRxekiTUQ?e=Uhat9r)   | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbCsmx-xbg9Aq2m8sRUsMGMBxyxprq1xTmsjlAjqJFd9lQ?e=B9Pojb) |
+| iNat 2018   | ResNet-50  | 70.327%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EfVPDmTDauhHvx8ys0-QKHABEJt0hFZtyn_7HYRxekiTUQ?e=Uhat9r)       | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbCsmx-xbg9Aq2m8sRUsMGMBxyxprq1xTmsjlAjqJFd9lQ?e=B9Pojb) |
 | Places-LT   | ResNet-152 | 34.589%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/ERdVRvw1a6tFkxXFRsMLSWIB5PVqjzQ_J_Lejct96r1eGQ?e=DOghYk)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg)  |
 
 * Stage-2:
