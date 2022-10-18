@@ -29,7 +29,7 @@ $ python cifar_train_classifier.py --arch resnet32 /
 | ----------- | ---------- | -------------- | ------------- | ----- |
 | ImageNet-LT | ResNet-50  | 52.928%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EYro8K-qsKJOvkPf3RJrn6oBnd98VXIQlkrCnQLoex-U8Q?e=2TJOaF)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EYro8K-qsKJOvkPf3RJrn6oBnd98VXIQlkrCnQLoex-U8Q?e=2TJOaF)  |
 | iNat 2018   | ResNet-50  | 70.327%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EfVPDmTDauhHvx8ys0-QKHABEJt0hFZtyn_7HYRxekiTUQ?e=Uhat9r)   | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbCsmx-xbg9Aq2m8sRUsMGMBxyxprq1xTmsjlAjqJFd9lQ?e=B9Pojb) |
-| Places-LT   | ResNet-152 | 34.589%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg?e=AsLrWd)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg)  |
+| Places-LT   | ResNet-152 | 34.589%        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EbFwr8fJNdxFiPfoE64-j5UB4e0MKxOZgdLQ_qACR9tsbA?e=YvRnv2)        | [link](https://lifehkbueduhk-my.sharepoint.com/:u:/g/personal/18482244_life_hkbu_edu_hk/EeZKudpg0WVAm0LDkY2EIzMBIA88fzyUobI4UCY5wkP4tg)  |
 
 * Stage-2:
 
