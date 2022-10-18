@@ -19,7 +19,9 @@ $ python cifar_train_classifier.py --arch resnet32 /
                                  --batch_size 64 --learning_rate 0.1 
 ```
 
-## Results and Models for Large-scale Datasets ()
+## Results and Models for Large-scale Datasets (temporarily)
+
+(*Note: The code in this repository may need to be modified to match the .pth file. Since I left my previous workplace, there is no GPU retraining model now. I temporarily share previously stored .pth file for the model. Sorry for the trouble.)
 
 * Stage-1:
 
