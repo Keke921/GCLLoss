@@ -21,7 +21,7 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 ## Results and Models for Large-scale Datasets (temporarily)
 
-(*Note: The code in this repository may need to be modified to match the .pth file. Since I left my previous workplace, there is no GPU retraining model now. I temporarily share previously stored .pth file for the model. Sorry for the trouble.)
+[*Note: I have modified the code several time. The code in this repository may need to be modified (Mainly the backbone and classifier loading parts, the classifier network parameter names may be inconsistent.) to match the pth file. Since I left my previous workplace, there is no GPU retraining model now. I temporarily share previously stored pth file for the model. Sorry for the inconvience.]
 
 * Stage-1:
 
