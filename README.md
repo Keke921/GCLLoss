@@ -51,17 +51,6 @@ $ python cifar_train_classifier.py --arch resnet32 /
 - [ ] Some other minor performance improvements
 
 
-## Citation
-```
-@inproceedings{Li2022Long,
-  author    = {Mengke Li, Yiu{-}ming Cheung, Yang Lu},
-  title     = {Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment},
-  pages = {6929-6938},
-  booktitle = {CVPR},
-  year      = {2022},
-}
-```
-
 ## Other Resources of long-tailed visual recognition
 [Awesome-LongTailed-Learning](https://github.com/Vanint/Awesome-LongTailed-Learning)
 
@@ -73,3 +62,14 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 ## Connection
 If you have any questions, please send the email to Mengke Li at: csmkli@comp.hkbu.edu.hk.
+
+## Citation
+```
+@inproceedings{Li2022Long,
+  author    = {Mengke Li, Yiu{-}ming Cheung, Yang Lu},
+  title     = {Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment},
+  pages = {6929-6938},
+  booktitle = {CVPR},
+  year      = {2022},
+}
+```
