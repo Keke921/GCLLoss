@@ -23,6 +23,8 @@ $ python cifar_train_classifier.py --arch resnet32 /
 
 *Note: I have modified the code several times. The code in this repository may need to be modified (Mainly the backbone and classifier loading parts, the classifier network layer names may be inconsistent.) to match the pth file. Since I left my previous workplace, there is no GPU retraining model now. I temporarily share previously stored pth file for the model. Sorry for the inconvience and hope you can understand.
 
+Sorry. I have run out of the storage space and the model parameters are temporarily unavailable. Looking for other disk now.
+
 * Stage-1:
 
 | Dataset     | Arch       | Top-1 Accuracy | Log           | Model |
