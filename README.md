@@ -1,6 +1,10 @@
-# GCL: Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment
+# GCL: Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment 
 This is the source code for our CVPR (2022) paper: [Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Long-Tailed_Visual_Recognition_via_Gaussian_Clouded_Logit_Adjustment_CVPR_2022_paper.html) based on Pytorch. 
 This version is a demo of how to use GCL loss. The version that supports more datasets is in the works and is coming soon.
+
+This repository also include the source code for our TAI paper: [Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition](https://arxiv.org/abs/2305.10648).
+The angular form GCL can be found in [losses.py](https://github.com/Keke921/GCLLoss/blob/main/losses.py) GCLAngLoss. 
+
 
 ## CIFAR10
 First stage
@@ -67,7 +71,7 @@ If you have any questions, please send the email to Mengke Li at: csmkli@comp.hk
 
 ## Citation
 ```
-@inproceedings{Li2022Long,
+@inproceedings{Li2022GCL,
   author    = {Mengke Li, Yiu{-}ming Cheung, Yang Lu},
   title     = {Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment},
   pages = {6929-6938},
@@ -75,5 +79,19 @@ If you have any questions, please send the email to Mengke Li at: csmkli@comp.hk
   year      = {2022},
 }
 ```
+
+```
+@ARTICLE{Li2024AGCL,
+  author={Li, Mengke and Cheung, Yiu-ming and Lu, Yang and Hu, Zhikai and Lan, Weichao and Huang, Hui},
+  journal={IEEE Transactions on Artificial Intelligence}, 
+  title={Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TAI.2024.3401102}}
+```
+
+
 ## Acknowledgment
 We refer to some codes from [MisLAS](https://github.com/dvlab-research/MiSLAS). Many thanks to the authors.
