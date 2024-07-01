@@ -81,7 +81,7 @@ If you have any questions, please send the email to Mengke Li at: csmkli@comp.hk
 ```
 
 ```
-@ARTICLE{Li2024AGCL,
+@article{Li2024AGCL,
   author={Li, Mengke and Cheung, Yiu-ming and Lu, Yang and Hu, Zhikai and Lan, Weichao and Huang, Hui},
   journal={IEEE Transactions on Artificial Intelligence}, 
   title={Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition}, 
