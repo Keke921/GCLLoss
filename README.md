@@ -69,13 +69,13 @@ Sorry. I have run out of the storage space and the model parameters are temporar
 
 
 ## Other Resources of long-tailed visual recognition
-[Awesome-LongTailed-Learning](https://github.com/Vanint/Awesome-LongTailed-Learning)
+* [Awesome-LongTailed-Learning](https://github.com/Vanint/Awesome-LongTailed-Learning)
 
-[Awesome-of-Long-Tailed-Recognition](https://github.com/zwzhang121/Awesome-of-Long-Tailed-Recognition)
+* [Awesome-of-Long-Tailed-Recognition](https://github.com/zwzhang121/Awesome-of-Long-Tailed-Recognition)
 
-[Long-Tailed-Classification-Leaderboard](https://github.com/yanyanSann/Long-Tailed-Classification-Leaderboard)
+* [Long-Tailed-Classification-Leaderboard](https://github.com/yanyanSann/Long-Tailed-Classification-Leaderboard)
 
-[BagofTricks-LT](https://github.com/zhangyongshun/BagofTricks-LT)
+* [BagofTricks-LT](https://github.com/zhangyongshun/BagofTricks-LT)
 
 ## Connection
 If you have any questions, please send the email to Mengke Li at: csmkli@comp.hkbu.edu.hk.
