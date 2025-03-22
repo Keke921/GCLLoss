@@ -57,6 +57,17 @@ Sorry. I have run out of the storage space and the model parameters are temporar
 - [ ] Some other minor performance improvements
 
 
+## You May Find Our Additional Works of Interest
+
+* [TPAMI'23] Key point sensitive loss for long-tailed visual recognition [paper](https://drive.google.com/file/d/1gOJDHBJ_M7RmU6Iw2p6uXIyo8pNgVMrv/view?pli=1) [code](https://github.com/Keke921/KPSLoss)
+
+* [CVPR'23] Long-tailed visual recognition via self-heterogeneous integration with knowledge excavation [paper](https://arxiv.org/pdf/2304.01279) [code](https://github.com/jinyan-06/SHIKE)
+
+* [AAAI'24] Feature Fusion from Head to Tail for Long-Tailed Visual Recognition [paper](https://arxiv.org/pdf/2306.06963) [code](https://github.com/Keke921/H2T)
+
+* [NeurIPS'24] Improving Visual Prompt Tuning by Gaussian Neighborhood Minimization for Long-Tailed Visual Recognition [paper](https://arxiv.org/pdf/2410.21042) [code](https://github.com/Keke921/GNM-PT)
+
+
 ## Other Resources of long-tailed visual recognition
 [Awesome-LongTailed-Learning](https://github.com/Vanint/Awesome-LongTailed-Learning)
 
