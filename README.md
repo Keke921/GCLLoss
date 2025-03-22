@@ -61,7 +61,7 @@ Sorry. I have run out of the storage space and the model parameters are temporar
 
 * [TPAMI'23] Key Point Sensitive Loss for Long-Tailed Visual Recognition [[paper](https://drive.google.com/file/d/1gOJDHBJ_M7RmU6Iw2p6uXIyo8pNgVMrv/view?pli=1)] [[code](https://github.com/Keke921/KPSLoss)]
 
-* [CVPR'23] Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation [[paper](https://arxiv.org/pdf/2304.01279) [[code](https://github.com/jinyan-06/SHIKE)]]
+* [CVPR'23] Long-Tailed Visual Recognition via Self-Heterogeneous Integration with Knowledge Excavation [[paper](https://arxiv.org/pdf/2304.01279)] [[code](https://github.com/jinyan-06/SHIKE)]
 
 * [AAAI'24] Feature Fusion from Head to Tail for Long-Tailed Visual Recognition [[paper](https://arxiv.org/pdf/2306.06963)] [[code](https://github.com/Keke921/H2T)]
 
@@ -97,9 +97,9 @@ If you have any questions, please send the email to Mengke Li at: csmkli@comp.hk
   journal={IEEE Transactions on Artificial Intelligence}, 
   title={Adjusting Logit in Gaussian Form for Long-Tailed Visual Recognition}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-15},
+  volume={5},
+  number={10},
+  pages={5026-5039},
   doi={10.1109/TAI.2024.3401102}}
 ```
 
